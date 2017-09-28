@@ -15,16 +15,25 @@
 
 ### IoT 量产机种 (MP)
 * H6A-SmartHost
-* H6C-SmartAudio
+
+* H6C-SmartAudio(Host PC 端软体安装,驱动安装H6C与H6A均一致)
+    * ZOC debug 工具，安装路径 \\172.26.6.72\nb1tool\常用工具\H6A安装工具\ zoc651.exe
+    * 治具单片机 COM Port 驱动，安装路径 \\172.26.6.72\nb1tool\常用工具\H6A安装工具\DriverCOMxian
+    * 产品 COM Port 驱动，安装路径 \\172.26.6.72\nb1tool\常用工具\H6A安装工具\DriverCOMxian
+
 * Remote (Host PC 测试软件部署)
     * ZOC debug 工具，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A安装工具\zoc651.exe
 	* SLT1/SLT3/SLT3-1, 治具单片机 COMPort 驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A安装工具\DriverCOMxian
     * SLT2 MIC 测试软体驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A-RM安装工具\Engine_SDTMIC\LVRTE2013std.exe
     * SLT2/SLT4 产品ADB驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A-RM安装工具\android_device_usb_driver
     * SLT5 安捷伦U2001A驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\安捷伦U2001A安装\IOLibSuite_16_3_17914.exe
+    
 * Remote-base
+
 * QF7
+
 * UU1 - 智能自行车锁
+
 * H60 - 
     * RD 的执行脚本以及 UART command, log 等列表 \\172.26.6.72\nb1tool\常用工具\H60测试交接\Test_item_table-20151125.xlsx
     * 利用 wifi 更新 DUT 端 image 的功能；\\172.26.6.72\nb1tool\常用工具\H60测试交接\H60_PVT_download_image_tool.pptx
