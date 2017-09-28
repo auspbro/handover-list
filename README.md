@@ -7,13 +7,13 @@
 
 ## Non-Notebook
 
-###  NPI 试产新机种 - IoT
+### IoT 试产新机种 (NPI)
 * QF6
 * ABOB-Savant
 * KUD-Dyson
 * 0WM-Facebook
 
-### MP 量产机种 - IoT
+### IoT 量产机种 (MP)
 * H6A-SmartHost
 * H6C-SmartAudio
 * Remote
