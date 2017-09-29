@@ -4,8 +4,19 @@
 ## Notebook 
 * AM8 - 
 * AM9C
+* Notebook 机种 shop-floor 维护地址 \\172.26.6.116 (User:qms Password:qms)
+
+* Utility(WIN BASE SF 系统-维护半机 Engine 线 BIOS)  \\172.26.6.116\nb1_winbase_sf\Shopfloor\Utility\Loader\Loader.exe (User:07061031 Password:07061031)
+
+* WIN_Utility(WIN 整机 shop-floor 系统)   \\172.26.6.116\nb1_wincto_sf\AppExe\WIN_UT\LOADER\Loader.exe (User:07061031 Password:07061031)
+    * Pilot run BIOS: SWDL Maintain - Pilot Run BIOS - Upload pilot run BIOS excel 文档
 
 ## Non-Notebook
+Mainmenu(SMT 治具电脑绑定) \\172.26.21.116\smt_nb1_exe\MainMenu\Mainmenu
+
+CS_UTw(查询 IoT 机种测试 log )   \\172.26.6.116\nb1_wincto_sf\AppExe\CS_UT\Loader\Loader.exe (User:07061031 Password:07061031)
+
+Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTest\LOADER\Loader.exe (User:A2052373 Password:A2052373)
 
 ### IoT 试产新机种 (NPI)
 * QF6
@@ -27,7 +38,7 @@
     * SLT2 MIC 测试软体驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A-RM安装工具\Engine_SDTMIC\LVRTE2013std.exe
     * SLT2/SLT4 产品ADB驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A-RM安装工具\android_device_usb_driver
     * SLT5 安捷伦U2001A驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\安捷伦U2001A安装\IOLibSuite_16_3_17914.exe
-    
+
 * Remote-base
 
 * QF7
