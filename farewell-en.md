@@ -8,7 +8,7 @@ Today is my last working day in XXX. It is my great honor to work with you, to k
 * E-mail: <auspbro@gmail.com>
 * Mobile: 13661538888 (also my WeChat account)
 
-Best Regards
+Best Regards,
 XX
 
 
