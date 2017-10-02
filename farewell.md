@@ -1,5 +1,5 @@
 
-尊敬的各位老板同事，
+### 尊敬的各位老板同事，
 
 今天是我在广达的最后一天! 
 自入职以来，承蒙领导的敦促教诲和同事们的关照指导，让我在工作上获益良多，小弟铭记在心，在此向各位表示万分感谢！
@@ -7,12 +7,12 @@
 
 
 
-工作交接：
-NB (AM8,AM9C)  Walker Yao (姚尚政)
-NNB (H6A, H6C, H60, Remote, H60 PM2.5)  Bob Tang (汤增宝)
+### 工作交接：
+* NB (AM8,AM9C) --> Walker Yao (姚尚政)
+* NNB (H6A, H6C, H60, Remote, H60 PM2.5) --> Bob Tang (汤增宝)
 
 
-联系方式：
-Mail: auspbro@gmail.com
-Mobile: 1366153****
+### 联系方式：
+* Mail: auspbro@gmail.com
+* Mobile: 1366153****
 
