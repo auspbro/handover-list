@@ -15,5 +15,5 @@
 * Mobile: 13661538888
 
 
-Best Regards,
+Best Regards,<br />
 XX
