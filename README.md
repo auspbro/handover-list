@@ -44,6 +44,7 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
 * QF7
 
 * UU1 - 智能自行车锁
+    SLT1/SLT2 两站测试类似，SLT1 是半机测试， SLT2 是整机测试
 
 * H60 - 
     * RD 的执行脚本以及 UART command, log 等列表 \\172.26.6.72\nb1tool\常用工具\H60测试交接\Test_item_table-20151125.xlsx
