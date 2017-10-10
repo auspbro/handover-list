@@ -2,8 +2,16 @@
 工作交接列表
 
 ## Notebook 
-* AM8 - 
-* AM9C
+* AM8/AM8A-Monet 
+* AM9C-Pandora3
+    * Ubuntu & Windows 10 双系统，Download 完 test image 后默认从 Ubuntu 系统启动自动执行脚本跑 AMD Diag 测试 PASS 后自动切换到 Windows 10 进行 FFT 测试。
+    * 安装双系统及配置 Ubuntu 测试 Diag 环境请参考。。。
+    * Ubuntu 自动执行脚本配置
+        * 编辑 sudo nano /etc/default/grub 文件修改 GRUB_TIMEOUT=10 -> GRUB_TIMEOUT=10, 然后执行 sudo update-grub
+        * 更改 Ubuntu Boot Entry 默认启动顺序，编辑/boot/grub/grub.cfg,修改 set default="${saved_entry}" 为 set default="0"
+        * 添加开机自动执行脚本，sudo nano ~/.bashrc, 在.bashrc文件最后一行新增需要开机启动自动执行的 bash 指令 （例：sudo bash /home/diag/..../AMD_Diag_Go.sh）
+        * How to avoid the "S to skip" message on ubuntu boot?如何避免Ubuntu系统启动时停在某个地方按某个键跳过，add the option nobootwait to your /etc/fstab  /boot/grub/grub.cfg
+
 * Notebook 机种 shop-floor 维护地址 \\172.26.6.116 (User:qms Password:qms)
 
 * Utility(WIN BASE SF 系统-维护半机 Engine 线 BIOS)  \\172.26.6.116\nb1_winbase_sf\Shopfloor\Utility\Loader\Loader.exe (User:07061031 Password:07061031)
