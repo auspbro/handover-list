@@ -35,6 +35,18 @@ Loader(绑定站别治具电脑)   \\\172.26.6.116\nb1_wincto_sf\AppExe\DefineTe
 ### IoT 量产机种 (MP)
 * H6A-SmartHost
 
+關於 Smart host 會有三種不同的 model number(Smart host, S2 及 S12) 一事, 客人決定採用同一個 image 且不用於出貨時重刷 shipping image 的方式, 而以燒入於機器中的 Part number 來做區分.
+客人採用這個方法應對工廠的投產這三個產品, 也是好事, 同一個 PCBA, 同個產測方法, 只要於寫入part number時要寫對 part number.
+
+針對如何知道要寫入那個part number, 我的想法如下, 要請大家看這個想法是否可行:
+
+1.	這三個產品, 其貼於底部的label, 所以, 其packaging BOM上的內容物不同且所放置的QSG也不同, 所以, 應可依此建立新的1字階料號
+2.	客人的訂單會提供要出那個model number
+3.	依客人訂單上所列的model number, 開工單時, 可以知道其對應到的廣達1字階料號, 且此時廣達的S/N應也已設定好
+4.	Shop floor系統上存有1字階料號所對應到的要燒入到機器的 part number
+5.	在進行燒入 part number 時, 作業員掃瞄待測機的廣達S/N, 從廣達S/N可以知道其1字階料號, 再由1字階料號可取得要燒錄的part number, 取得後做燒錄的動作.
+
+
 * H6C-SmartAudio(Host PC 端软体安装,驱动安装 H6C 与 H6A 均一致)
     * ZOC debug 工具，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A安装工具\zoc651.exe
     * 治具单片机 COM Port 驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A安装工具\DriverCOMxian
