@@ -20,7 +20,15 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
 
 ### IoT 试产新机种 (NPI)
 * QF6
+    * SMT 两站
+    * FA 两站， RunIn(offline) - FRT - FFT - Recovery(offline)
 * ABOB-Savant
+    * ABOB-MCI
+        * MCI Audio 测试中的 tool A85*.exe 不 support 32 位系统，所以 Host PC 必须用 64 位系统
+        * Com port 1 为 Uart，Com port 2，3 分别是 RS232，Com port 4 为 MCU 单片机
+        * SMT/FA 需要用到治具测试部分 两颗LED（SMT 只测试亮灭，FA 还测试等号颜色），IR1-6, 
+    * ABOB-MCO
+        * Com port 1 为 Uart，Com port 4 为 MCU 单片机
 * KUD-Dyson
 * 0WM-Facebook
 
