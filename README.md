@@ -26,9 +26,11 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
     * ABOB-MCI
         * MCI Audio 测试中的 tool A85*.exe 不 support 32 位系统，所以 Host PC 必须用 64 位系统
         * Com port 1 为 Uart，Com port 2，3 分别是 RS232，Com port 4 为 MCU 单片机
-        * SMT/FA 需要用到治具测试部分 两颗LED（SMT 只测试亮灭，FA 还测试等号颜色），IR1-6, 
+        * SMT/FA 需要用到治具测试部分 两颗LED（SMT 只测试亮灭，FA 还测试灯号颜色，LED1 绿色，LED2 绿色+红色），IR1-6, 
+        * ABOB 治具指令请参考***
     * ABOB-MCO
         * Com port 1 为 Uart，Com port 4 为 MCU 单片机
+        * SMT/FA 需要用到治具测试部分 两颗LED（SMT 只测试亮灭，FA 还测试等号颜色），GPIO, Audio 
 * KUD-Dyson
 * 0WM-Facebook
 
@@ -65,4 +67,6 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
 
 ### POS 机
 
+* \\172.26.6.25\capt\POS_HSW\DL3_WIM
+* 
 
