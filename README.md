@@ -49,10 +49,7 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
     * SLT2/SLT4 产品ADB驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\H6A-RM安装工具\android_device_usb_driver
     * SLT5 安捷伦U2001A驱动，安装路径 \\\172.26.6.72\nb1tool\常用工具\安捷伦U2001A安装\IOLibSuite_16_3_17914.exe
 
-* Remote-base
-
 * QF7
-
 * UU1 - 智能自行车锁
     SLT1/SLT2 两站测试类似，SLT1 是半机测试， SLT2 是整机测试·
 
