@@ -2,8 +2,10 @@
 工作交接列表
 
 ## Notebook 
-* AM8 - 
+* AM8 - EOL
 * AM9C
+    * BIOS 窗口 W.Z Peng 彭武晟
+    * 测试 Image 为 UEFI mode，没有纯 Dos 环境，AMD Diag 是在 Linux 环境下 run。双系统环境 Ubuntu + Windows，PQC download 测试 image 后先切到 Ubuntu 环境下 run diag，diag pass 后自动切换到 Windows 下进行 function 测试。
 * Notebook 机种 shop-floor 维护地址 \\172.26.6.116 (User:qms Password:qms)
 
 * Utility(WIN BASE SF 系统-维护半机 Engine 线 BIOS)  \\172.26.6.116\nb1_winbase_sf\Shopfloor\Utility\Loader\Loader.exe (User:07061031 Password:07061031)
