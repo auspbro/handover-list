@@ -22,7 +22,7 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
 
 ### IoT 试产新机种 (NPI)
 * QF6
-    * SMT 两站
+    * SMT 两站,崇基预烧 factory image， BLT1 大板功能测试，BT/WIFI SMT 扫 RSSI即可，BLT2小板测试
     * FA 两站， RunIn(offline) - FRT - FFT - Recovery(offline)
 * ABOB-Savant
     * ABOB-MCI
