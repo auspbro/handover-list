@@ -38,7 +38,8 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
 * 0WM-Facebook
 
 ### IoT 量产机种 (MP)
-* H6A-SmartHost
+* H6A 系列 (SmartHost, Music Server, S2, S12)
+    * SMT BLT0 目前已整合 SHC,SMS 和 S2 的 image 烧录，根据 MB serial number 来区分烧录 ubootmfg。
 
 * H6C-SmartAudio(Host PC 端软体安装,驱动安装H6C与H6A均一致)
     * ZOC debug 工具，安装路径 \\172.26.6.72\nb1tool\常用工具\H6A安装工具\ zoc651.exe
