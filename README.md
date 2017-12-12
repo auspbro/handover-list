@@ -38,8 +38,14 @@ Loader(绑定站别治具电脑)   \\172.26.6.116\nb1_wincto_sf\AppExe\DefineTes
 * 0WM-Facebook
 
 ### IoT 量产机种 (MP)
-* H6A 系列 (SmartHost, Music Server, S2, S12)
+* H6A SmartHost 系列不完全指北 (SHC-2000, SHC-S2, SHC-S12, SMS-1001, SMS-100AM)
     * SMT BLT0 目前已整合 SHC,SMS 和 S2 的 image 烧录，根据 MB serial number 来区分烧录 ubootmfg。
+    * BLT0(Uboot烧录站)
+H6A-SHC-S2 50料头的MB，Uboot烧录已经跟H6A 30/40料头整合到一起，程式会根据MBSN自动区分烧录30/40/50料头的Uboot，请copy "\\172.26.21.210\nb1tool\TestProgram\H6A\BLT0_30_40_50共用版" 文件夹下的BLT0烧录使用。
+
+
+* BLT1(功能测试站）
+    * 注意BLT1精简版30/40/50料头的可以共用一版测试程式，全测的因为每个料头测试的item不一样所以不能共用一版请区分使用。
 
 * H6C-SmartAudio(Host PC 端软体安装,驱动安装H6C与H6A均一致)
     * ZOC debug 工具，安装路径 \\172.26.6.72\nb1tool\常用工具\H6A安装工具\ zoc651.exe
